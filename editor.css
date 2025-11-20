@@ -19,6 +19,23 @@
     justify-content: space-between;
 }
 
+.page-title {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.page-title .under-line {
+    width: 50%;
+    border-top: 3px solid #3073D7;
+    margin-bottom: 24px;
+}
+
 #editors {
     width: 90%;
     margin: 0 auto;
