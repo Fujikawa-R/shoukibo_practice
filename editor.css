@@ -46,9 +46,11 @@ h1 {
 
 .editor-item {
     width: 42%;
-    background-color: #afafaf;
+    background-color: #fff;
     margin-bottom: 24px;
     padding: 24px 40px;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid #a6a6a6;
 }
 
 .editor-item img {
@@ -59,7 +61,6 @@ h1 {
 
 .editor-info {
     width: 68%;
-    background-color: aqua;
 }
 
 .editor-item table {
@@ -68,7 +69,8 @@ h1 {
 
 .one-word {
     display: block;
-    background-color: rgb(253, 117, 117);
+    border: 2px solid #3073D7;
+    border-radius: 8px;
     height: 58px;
     margin-top: 24px;
     padding: 16px 24px;
