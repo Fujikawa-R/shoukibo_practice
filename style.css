@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+    font-family: "Zen Kaku Gothic New", sans-serif !important;
+}
+
 header{
     padding: 0;
     margin: 0;
@@ -32,4 +36,61 @@ nav a{
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.weight-bold {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #e1f1f5;
+    padding: 32px 5% 24px 5%;
+}
+
+footer h3 {
+    font-size: 28px;
+}
+
+footer .content-links {
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    color: #000;
+}
+
+footer nav {
+    gap: 32px;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin-top: 8px;
+}
+
+footer ul li a {
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 64px;
+}
+
+a {
+    cursor: pointer;
 }

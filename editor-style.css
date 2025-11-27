@@ -55,7 +55,8 @@ h1 {
 
 .editor-item img {
     width: 26%;
-    padding-top: 26%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
     background-color: beige;
 }
 
