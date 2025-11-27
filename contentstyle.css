@@ -14,3 +14,8 @@
     margin-top: 32px;
     color: #3073D7;
 }
+
+.d-block {
+    width: 90%;
+    object-fit: cover;
+}
